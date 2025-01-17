@@ -1,0 +1,17 @@
+.offers {
+  font-size: 0.8rem !important;
+  color: #4e5562;
+}
+
+
+#dropdownMenuButton  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.category {
+  border-right: 1px solid #4e5562;
+}
