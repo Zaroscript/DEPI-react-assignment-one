@@ -6,6 +6,9 @@ import {
   faHouseCircleCheck,
   faHandHoldingDollar,
 } from "@fortawesome/free-solid-svg-icons";
+import card1Img from "../../assets/img/01.png"
+import card2Img from "../../assets/img/02.png"
+import card3Img from "../../assets/img/03.png"
 
 // Array of card data
 const cardData = [
@@ -14,21 +17,21 @@ const cardData = [
     icon: faHandHoldingDollar,
     title: "Buy a property",
     buttonLabel: "Find a home",
-    imageSrc: "public\\assets\\img\\01.png",
+    imageSrc: card1Img,
   },
   {
     bgClass: "bg-info",
     icon: faHouseCircleCheck,
     title: "Sell a property",
     buttonLabel: "Place an ad",
-    imageSrc: "public\\assets\\img\\02.png",
+    imageSrc: card2Img,
   },
   {
     bgClass: "bg-warning-subtle",
     icon: faChartLine,
     title: "Rent a property",
     buttonLabel: "Find a rental",
-    imageSrc: "public\\assets\\img\\03.png",
+    imageSrc: card3Img,
   },
 ];
 
